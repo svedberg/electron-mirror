@@ -1,0 +1,14 @@
+{
+  "name": "electron-test",
+  "version": "1.0.0",
+  "description": "Small test for getting started with electron.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "C-A Svedberg, Autonom-nom",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.5"
+  }
+}

@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+  font-family: 'BlinkMacSystemFont', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: hidden; /* Prevents rubber-band scrolling of the whole "page" */
+  color: #fff;
+  background-color: #000; /* To cover OSes with no default background color */
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+body{
+  font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color:#fff;
+  overflow-y: auto;
+  min-width: 100%;
+  min-height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.4;
+  cursor: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+main {
+  width: 96%;
+  padding: 2%;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  line-height: 1.5;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 700;
+}
